@@ -2,7 +2,7 @@ def draw_park():
     print("             |||               _____    ")
     print("           (  0   )           (^ o ^)")
     print("         (          )       // (   )\\  ")
-    print("        (            )          ^^ 
+    print("        (            )          ^^ ")
     print("      (               )                              ")
     print("      (     0           )                          ")
     print("     (             0     )        |________________|                ")
@@ -20,6 +20,10 @@ def draw_park():
     print("       /||||||||||||\             (||:||)             ")
     print("      /||||||||||||||\             || ||              ")
     print("                                  (_) (_)  ")
+    print(" ___     ___ ")
+    print("(o o)   (o o)")
+    print("(  V  ) (  V  ) ")
+    print("/--m-m- /--m-m-")
 
 
     return
