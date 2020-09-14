@@ -20,10 +20,9 @@ def draw_park(birds):
     print("       /||||||||||||\             (||:||)             ")
     print("      /||||||||||||||\             || ||              ")
     print("                                  (_) (_)  ")
-    print(" ___     ___ ")
-    print("(o o)   (o o)")
-    print("(  V  ) (  V  ) ")
-    print("/--m-m- /--m-m-")
-
+    for i in birds:
+        print("(o o)   (o o)")
+        print("(  V  ) (  V  ) ")
+        print("/--m-m- /--m-m-")
 
     return
