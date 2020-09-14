@@ -1,4 +1,4 @@
-def draw_park():
+def draw_park(birds):
     print("             |||               _____    ")
     print("           (  0   )           (^ o ^)")
     print("         (          )       // (   )\\  ")
