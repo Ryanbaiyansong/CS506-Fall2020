@@ -3,5 +3,5 @@ from .park import draw_park
 
 def draw_outdoors():
     draw_lake()
-    draw_park( birds)
+    draw_park(5)
     return
