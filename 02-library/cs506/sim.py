@@ -30,15 +30,15 @@ def cosine_sim(x, y):
         raise ValueError("lengths must not be zero")
     if len(x) != len(y):
         raise ValueError("lengths must be equal")
-    dot = 0
-    x_magnitude = 0
-    y_magnitude = 0
+    dot_res = 0
+    magnitude_of_x = 0
+    magnitude_of_y = 0
     for i in range(len(x)):
-        dot += x[i] * y[i]
-        x_magnitude += x[i]**2
-        y_magnitude += y[i]**2
-    x_magnitude = x_magnitude**(1/2)
-    y_magnitude = y_magnitude**(1/2)
-    return dot / (x_magnitude * y_magnitude)
+        dot_res += x[i] * y[i]
+        magnitude_of_x += x[i]**2
+        magnitude_of_y += y[i]**2
+    magnitude_of_x = magnitude_of_x**(1/2)
+    magnitude_of_y = magnitude_of_y**(1/2)
+    return dot_res / (magnitude_of_x * magnitude_of_y)
 
 # Feel free to add more
